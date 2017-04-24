@@ -1,0 +1,16 @@
+php_value auto_prepend_file /var/www/safe/auth.php
+
+#deny from all
+#allow from 93.114.5.20
+#AuthType Basic
+#AuthName "Ukrainian Tactical Gaming"
+#AuthBasicProvider file
+#AuthUserFile /etc/apache2/utg.password
+#Require user utg
+
+RewriteEngine On
+Options +FollowSymLinks
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php?$0 [PT,L,QSA]
+
