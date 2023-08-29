@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="/lib/codemirror.css">
 		
-		<script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.12.4.min.js"></script>
 
 		<script type="text/javascript" src="/js/jquery.jeditable.mini.js"></script>
 		
